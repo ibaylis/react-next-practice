@@ -33,7 +33,7 @@ class Home extends Component {
                 <Link href={{
                     pathname: `/users/profile`,
                     query: {
-                        yserId: user.id
+                        userId: user.id
                     }
                 }}>
                     <a>{user.name}</a>

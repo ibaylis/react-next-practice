@@ -12939,13 +12939,25 @@ function (_Component) {
           lineNumber: 28
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h1", {
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
         },
         __self: this
-      }, "Welcome to the profile page"), this.showUser(this.props.user));
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, "Welcome to the profile page"), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }), this.showUser(this.props.user));
     }
   }], [{
     key: "getInitialProps",

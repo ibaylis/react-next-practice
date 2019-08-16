@@ -26,7 +26,9 @@ class Profile extends Component {
         render(){
                 return (
                     <MainLayout>
+                        <br />
                         <h1>Welcome to the profile page</h1>
+                        <br />
                         {this.showUser(this.props.user)}
                     </MainLayout>
             )
