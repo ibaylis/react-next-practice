@@ -18,6 +18,12 @@ class Contact extends Component {
 
                         `}
                     </style>
+                    <div className="contact_static">
+                            Styles with static css
+                    </div>
+                    <div>
+                        <img src="/static/images/knicks.jpeg" />
+                    </div>
                 </MainLayout>
             </>
         )
