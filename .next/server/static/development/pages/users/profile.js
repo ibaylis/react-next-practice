@@ -106,114 +106,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/ibaylis/Desktop/react-project/react-next-practice/components/includes/header.js";
 
 
 
-const Header = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-  className: "container",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
+const Header = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  className: "container"
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-  className: "navbar navbar-expand-lg navbar-light",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
+  className: "navbar navbar-expand-lg navbar-light"
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
+  href: "/"
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  className: "navbar-brand",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
+  className: "navbar-brand"
 }, "My Awesome NEXTjs App!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-  className: "collapse navbar-collapse",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 14
-  },
-  __self: undefined
+  className: "collapse navbar-collapse"
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-  className: "navbar-nav",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
+  className: "navbar-nav"
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
+  href: "/"
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  className: "nav-item nav-link",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
+  className: "nav-item nav-link"
 }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/contact",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 19
-  },
-  __self: undefined
+  href: "/contact"
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  className: "nav-item nav-link",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 20
-  },
-  __self: undefined
+  className: "nav-item nav-link"
 }, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/about",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 22
-  },
-  __self: undefined
+  href: "/about"
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  className: "nav-item nav-link",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 23
-  },
-  __self: undefined
+  className: "nav-item nav-link"
 }, "About Us")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/users",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 25
-  },
-  __self: undefined
+  href: "/users"
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  className: "nav-item nav-link",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 26
-  },
-  __self: undefined
+  className: "nav-item nav-link"
 }, "Users"))))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -234,67 +157,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _includes_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../includes/header */ "./components/includes/header.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/ibaylis/Desktop/react-project/react-next-practice/components/layouts/mainLayout.js";
 
 
 
 
-const MainLayout = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, "My Awesome app"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+const MainLayout = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "My Awesome app"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
   href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700",
-  rel: "stylesheet",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
+  rel: "stylesheet"
 }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
   href: "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css",
-  rel: "stylesheet",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
+  rel: "stylesheet"
 }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
   href: "/static/css/styles.css",
-  rel: "stylesheet",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
+  rel: "stylesheet"
 })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-  className: "mainLayout container",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 14
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_includes_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-  className: "container",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
+  className: "mainLayout container"
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_includes_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  className: "container"
 }, props.children)));
 
 /* harmony default export */ __webpack_exports__["default"] = (MainLayout);
@@ -1011,7 +890,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/ibaylis/Desktop/react-project/react-next-practice/pages/users/profile.js";
 
 
 
@@ -1020,31 +898,7 @@ class Profile extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
   constructor(...args) {
     super(...args);
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "showUser", user => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 20
-      },
-      __self: this
-    }, "Name: ", user.name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21
-      },
-      __self: this
-    }, "Phone: ", user.phone), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22
-      },
-      __self: this
-    }, "Email: ", user.email)));
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "showUser", user => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "Name: ", user.name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "Phone: ", user.phone), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, "Email: ", user.email)));
   }
 
   static async getInitialProps({
@@ -1065,31 +919,7 @@ class Profile extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
   }
 
   render() {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_layouts_mainLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 30
-      },
-      __self: this
-    }, "Welcome to the profile page"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 31
-      },
-      __self: this
-    }), this.showUser(this.props.user));
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_layouts_mainLayout__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "User Profile"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Welcome to the profile page"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), this.showUser(this.props.user));
   }
 
 }
@@ -1113,7 +943,7 @@ Profile.getInitialProps = async ({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/ibaylis/Desktop/react-project/react-next-practice/pages/users/profile.js */"./pages/users/profile.js");
+module.exports = __webpack_require__(/*! C:\Users\The Baylis Code\Desktop\Projects\React\react-next-practice\pages\users\profile.js */"./pages/users/profile.js");
 
 
 /***/ }),

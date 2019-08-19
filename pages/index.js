@@ -28,10 +28,12 @@ class Home extends Component {
     }
 
     renderUserList = (users) => (
-        users.map((user, i) => (
+        users.map( (user, i) => (
             <li className="list-group-item" key={i}>
-                <Link href={{
-                    pathname: `/users/profile`,
+                <Link 
+                    as={`/users/profile/${user.id}`}
+                    href={{
+                    pathname:'/users/profile',
                     query: {
                         userId: user.id
                     }

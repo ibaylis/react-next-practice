@@ -15,7 +15,7 @@ class Profile extends Component {
         return {user}
     }
 
-        showUser = (user) => (
+      showUser = (user) => (
             <div>
                 <div>Name: {user.name}</div>
                 <div>Phone: {user.phone}</div>
@@ -26,6 +26,8 @@ class Profile extends Component {
         render(){
                 return (
                     <MainLayout>
+                        <br />
+                        <h1>User Profile</h1>
                         <br />
                         <h1>Welcome to the profile page</h1>
                         <br />
